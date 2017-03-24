@@ -99,7 +99,8 @@ public class Branch {
      * @since 0.2-beta-7
      */
     public String getEncodedName() {
-        return Util.rawEncode(getName());
+        String branchName = getName().replaceAll("_", "__").replaceAll("/", "_");
+        return Util.rawEncode(branchName);
     }
 
     /**

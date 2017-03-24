@@ -33,7 +33,7 @@
   </parent>
 
   <artifactId>branch-api</artifactId>
-  <version>1.5</version>
+  <version>1.5.1</version>
   <packaging>hpi</packaging>
 
   <name>Branch API Plugin</name>
